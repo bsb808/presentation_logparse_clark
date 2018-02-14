@@ -1,0 +1,27 @@
+Scenario - InvestGamePractice
+Logfile written - 02/12/2018 15:34:51
+
+Trial	Event Type	Code	Time	TTime	Uncertainty	Duration	Uncertainty	ReqTime	ReqDur	Stim Type	Pair Index
+
+1	Picture	Wait Screen	121	0	0	44375	0	0	next	other	0
+1	Response	1	44354	44233	0
+2	Picture	Practiceinvestment	44496	0	0	178594	0	0	next	other	0
+2	Response	1	222937	178440	0
+3	Picture	E4_application	223090	0	0	97607	0	0	next	other	0
+3	Text Input	20	317254	94164	0
+3	Response	1	317254	94164	0
+
+
+{
+   "app": "Presentation Version 20.0 Build 10.19.17",
+   "device": "Dell Inc. Latitude 7480",
+   "experiment": "{2094B016-167B-405E-8477-13F28FFEBDCE}",
+   "os": "Windows 10 64 bit",
+   "package": "",
+   "parameters": {
+      "configuration": "Default configuration"
+   },
+   "scenario": "InvestGame_Practice.sce",
+   "subject": "",
+   "timestamp": "2018/02/12 23:34:18 GMT"
+}

@@ -1,0 +1,25 @@
+Scenario - InvestGameFinal
+Logfile written - 02/12/2018 15:55:20
+
+Trial	Event Type	Code	Time	TTime	Uncertainty	Duration	Uncertainty	ReqTime	ReqDur	Stim Type	Pair Index
+
+1	Nothing	CurrentTotal:68	25	0	0			0		other	0
+1	Text Input	34	140866	140840	0
+1	Response	1	140866	140840	0
+2	Picture	Finalinvestment	140975	0	0	156	0	0	next	other	0
+3	Response	1	273322	132191	0
+
+
+{
+   "app": "Presentation Version 20.0 Build 10.19.17",
+   "device": "Dell Inc. Latitude 7480",
+   "experiment": "{2094B016-167B-405E-8477-13F28FFEBDCE}",
+   "os": "Windows 10 64 bit",
+   "package": "",
+   "parameters": {
+      "configuration": "Default configuration"
+   },
+   "scenario": "InvestGame_Final.sce",
+   "subject": "",
+   "timestamp": "2018/02/12 23:54:52 GMT"
+}

@@ -1,0 +1,25 @@
+Scenario - InvestGameIBV
+Logfile written - 02/12/2018 16:24:13
+
+Trial	Event Type	Code	Time	TTime	Uncertainty	Duration	Uncertainty	ReqTime	ReqDur	Stim Type	Pair Index
+
+1	Nothing	CurrentTotal:66	10	0	0			0		other	0
+1	Text Input	50	172669	172659	0
+1	Response	1	172669	172659	0
+2	Picture	TGinvestment	172786	0	0	156	0	0	next	other	0
+3	Response	1	265633	92691	0
+
+
+{
+   "app": "Presentation Version 20.0 Build 10.19.17",
+   "device": "Dell Inc. Latitude 7480",
+   "experiment": "{2094B016-167B-405E-8477-13F28FFEBDCE}",
+   "os": "Windows 10 64 bit",
+   "package": "",
+   "parameters": {
+      "configuration": "Default configuration"
+   },
+   "scenario": "InvestGame_IBV.sce",
+   "subject": "",
+   "timestamp": "2018/02/13 00:23:46 GMT"
+}

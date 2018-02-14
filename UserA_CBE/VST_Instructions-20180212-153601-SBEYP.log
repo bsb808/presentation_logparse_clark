@@ -1,0 +1,22 @@
+Scenario - Instructions
+Logfile written - 02/12/2018 15:36:45
+
+Trial	Event Type	Code	Time	TTime	Uncertainty	Duration	Uncertainty	ReqTime	ReqDur	Stim Type	Pair Index
+
+1	Picture	Instructions	68	0	0	430478	0	0	next	other	0
+1	Response	1	427099	427031	0
+
+
+{
+   "app": "Presentation Version 20.0 Build 10.19.17",
+   "device": "Dell Inc. Latitude 7480",
+   "experiment": "{2094B016-167B-405E-8477-13F28FFEBDCE}",
+   "os": "Windows 10 64 bit",
+   "package": "",
+   "parameters": {
+      "configuration": "Default configuration"
+   },
+   "scenario": "VST_Instructions.sce",
+   "subject": "",
+   "timestamp": "2018/02/12 23:36:01 GMT"
+}

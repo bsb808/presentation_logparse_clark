@@ -1,0 +1,22 @@
+Scenario - participantID
+Logfile written - 02/12/2018 15:33:26
+
+Trial	Event Type	Code	Time	TTime	Uncertainty	Duration	Uncertainty	ReqTime	ReqDur	Stim Type	Pair Index
+
+1	Picture	ID:5901	156	0	0	19429	0	0	next	other	0
+1	Response	1	16235	16079	0
+
+
+{
+   "app": "Presentation Version 20.0 Build 10.19.17",
+   "device": "Dell Inc. Latitude 7480",
+   "experiment": "{2094B016-167B-405E-8477-13F28FFEBDCE}",
+   "os": "Windows 10 64 bit",
+   "package": "",
+   "parameters": {
+      "configuration": "Default configuration"
+   },
+   "scenario": "ParticipantID.sce",
+   "subject": "",
+   "timestamp": "2018/02/12 23:33:24 GMT"
+}

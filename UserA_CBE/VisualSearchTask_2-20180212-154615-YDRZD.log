@@ -1,0 +1,562 @@
+Scenario - visualsearchtask
+Logfile written - 02/12/2018 15:54:52
+
+Trial	Event Type	Code	Time	TTime	Uncertainty	Duration	Uncertainty	ReqTime	ReqDur	Stim Type	Pair Index
+
+1	Picture	Wait Screen	27	0	0	33906	0	0	next	other	0
+1	Response	11	33846	33819	0
+2	Picture	ITI	33933	0	0	5156	0	0	next	other	0
+3	Picture	fix	39090	0	0	5156	0	0	next	other	0
+4	Picture	pic	44246	0	0	30156	0	0	next	other	0
+5	Nothing	Trial:1;FC:0; CC:0; FNL:0; ANS:0	74246	0	1			0		other	0
+6	Picture	First Choice	74402	0	0	21562	0	0	next	false_alarm	8
+6	Response	3	95772	21369	0
+7	Picture	Comp Choice	95965	0	0	20156	0	0	next	other	0
+8	Picture	Final Choice	116121	0	0	11875	0	0	next	false_alarm	11
+8	Response	3	127870	11749	0
+9	Picture	Answer	127996	0	0	13125	0	0	next	false_alarm	13
+9	Response	11	141009	13014	0
+10	Picture	ITI	141121	0	0	5156	0	0	next	other	0
+11	Picture	ITI	146277	0	0	5156	0	0	next	other	0
+12	Picture	fix	151433	0	0	5156	0	0	next	other	0
+13	Picture	pic	156590	0	0	30156	0	0	next	other	0
+14	Nothing	Trial:2;FC:3; CC:3; FNL:3; ANS:3	186590	0	0			0		other	0
+15	Picture	First Choice	186746	0	0	11094	0	0	next	false_alarm	20
+15	Response	2	197788	11043	0
+16	Picture	Comp Choice	197840	0	0	20156	0	0	next	other	0
+17	Picture	Final Choice	217996	0	0	33906	0	0	next	false_alarm	23
+17	Response	2	251785	33789	0
+18	Picture	Answer	251902	0	0	15781	0	0	next	false_alarm	25
+18	Response	11	267581	15679	0
+19	Picture	ITI	267683	0	0	5156	0	0	next	other	0
+20	Picture	ITI	272840	0	0	5156	0	0	next	other	0
+21	Picture	fix	277996	0	0	5156	0	0	next	other	0
+22	Picture	pic	283152	0	0	30156	0	0	next	other	0
+23	Nothing	Trial:3;FC:2; CC:1; FNL:2; ANS:3	313152	0	1			0		other	0
+24	Picture	First Choice	313308	0	0	15000	0	0	next	false_alarm	32
+24	Response	2	328254	14946	0
+25	Picture	Comp Choice	328308	0	0	20156	0	0	next	other	0
+26	Picture	Final Choice	348465	0	0	57813	0	0	next	false_alarm	35
+26	Response	3	406171	57706	0
+27	Picture	Answer	406277	0	0	13594	0	0	next	false_alarm	37
+27	Response	11	419747	13470	0
+28	Picture	ITI	419871	0	0	5156	0	0	next	other	0
+29	Picture	ITI	425027	0	0	5156	0	0	next	other	0
+30	Picture	fix	430183	0	0	5156	0	0	next	other	0
+31	Picture	pic	435340	0	0	30156	0	0	next	other	0
+32	Nothing	Trial:4;FC:2; CC:4; FNL:3; ANS:4	465340	0	1			0		other	0
+33	Picture	First Choice	465496	0	0	9531	0	0	next	false_alarm	44
+33	Response	5	474910	9414	0
+34	Picture	Comp Choice	475027	0	0	20156	0	0	next	other	0
+35	Picture	Final Choice	495183	0	0	32969	0	0	next	false_alarm	47
+35	Response	5	527999	32816	0
+36	Picture	Answer	528152	0	0	10781	0	0	next	false_alarm	49
+36	Response	11	538900	10748	0
+37	Picture	ITI	538933	0	0	5156	0	0	next	other	0
+38	Picture	ITI	544090	0	0	5156	0	0	next	other	0
+39	Picture	fix	549246	0	0	5156	0	0	next	other	0
+40	Picture	pic	554402	0	0	30156	0	0	next	other	0
+41	Nothing	Trial:5;FC:5; CC:7; FNL:5; ANS:5	584403	0	1			0		other	0
+42	Picture	First Choice	584558	0	0	13438	0	0	next	false_alarm	56
+42	Response	2	597945	13387	0
+43	Picture	Comp Choice	597996	0	0	20156	0	0	next	other	0
+44	Picture	Final Choice	618152	0	0	11562	0	0	next	false_alarm	59
+44	Response	2	629634	11482	0
+45	Picture	Answer	629715	0	0	9063	0	0	next	false_alarm	61
+45	Response	11	638621	8907	0
+46	Picture	ITI	638777	0	0	5156	0	0	next	other	0
+47	Picture	ITI	643933	0	0	5156	0	0	next	other	0
+48	Picture	fix	649090	0	0	5156	0	0	next	other	0
+49	Picture	pic	654246	0	0	30156	0	0	next	other	0
+50	Nothing	Trial:6;FC:2; CC:2; FNL:2; ANS:2	684246	0	0			0		other	0
+51	Picture	First Choice	684402	0	0	13125	0	0	next	false_alarm	68
+51	Response	6	697336	12934	0
+52	Picture	Comp Choice	697527	0	0	20156	0	0	next	other	0
+53	Picture	Final Choice	717683	0	0	26719	0	0	next	false_alarm	71
+53	Response	7	744287	26604	0
+54	Picture	Answer	744402	0	0	11406	0	0	next	false_alarm	73
+54	Response	11	755743	11341	0
+55	Picture	ITI	755808	0	0	5156	0	0	next	other	0
+56	Picture	ITI	760965	0	0	5156	0	0	next	other	0
+57	Picture	fix	766121	0	0	5156	0	0	next	other	0
+58	Picture	pic	771277	0	0	30156	0	0	next	other	0
+59	Nothing	Trial:7;FC:6; CC:7; FNL:7; ANS:7	801277	0	1			0		other	0
+60	Picture	First Choice	801433	0	0	7969	0	0	next	false_alarm	80
+60	Response	2	809288	7855	0
+61	Picture	Comp Choice	809402	0	0	20156	0	0	next	other	0
+62	Picture	Final Choice	829558	0	0	16094	0	0	next	false_alarm	83
+62	Response	2	845481	15923	0
+63	Picture	Answer	845652	0	0	10312	0	0	next	false_alarm	85
+63	Response	11	855913	10261	0
+64	Picture	ITI	855965	0	0	5156	0	0	next	other	0
+65	Picture	ITI	861121	0	0	5156	0	0	next	other	0
+66	Picture	fix	866277	0	0	5156	0	0	next	other	0
+67	Picture	pic	871433	0	0	30156	0	0	next	other	0
+68	Nothing	Trial:8;FC:2; CC:2; FNL:2; ANS:2	901434	0	0			0		other	0
+69	Picture	First Choice	901590	0	0	23750	0	0	next	false_alarm	92
+69	Response	6	925241	23652	0
+70	Picture	Comp Choice	925340	0	0	20156	0	0	next	other	0
+71	Picture	Final Choice	945496	0	0	46719	0	0	next	false_alarm	95
+71	Response	5	992145	46650	0
+72	Picture	Answer	992215	0	0	10938	0	0	next	false_alarm	97
+72	Response	11	1002988	10774	0
+73	Picture	ITI	1003152	0	0	5156	0	0	next	other	0
+74	Picture	ITI	1008308	0	0	5156	0	0	next	other	0
+75	Picture	fix	1013465	0	0	5156	0	0	next	other	0
+76	Picture	pic	1018621	0	0	30156	0	0	next	other	0
+77	Nothing	Trial:9;FC:6; CC:5; FNL:5; ANS:6	1048621	0	0			0		other	0
+78	Picture	First Choice	1048777	0	0	10000	0	0	next	false_alarm	104
+78	Response	10	1058680	9903	0
+79	Picture	Comp Choice	1058777	0	0	20156	0	0	next	other	0
+80	Picture	Final Choice	1078933	0	0	39531	0	0	next	false_alarm	107
+80	Response	10	1118324	39391	0
+81	Picture	Answer	1118465	0	0	12500	0	0	next	false_alarm	109
+81	Response	11	1130800	12335	0
+82	Picture	ITI	1130965	0	0	5156	0	0	next	other	0
+83	Picture	ITI	1136121	0	0	5156	0	0	next	other	0
+84	Picture	fix	1141277	0	0	5156	0	0	next	other	0
+85	Picture	pic	1146433	0	0	30156	0	0	next	other	0
+86	Nothing	Trial:10;FC:10; CC:1; FNL:10; ANS:1	1176434	0	0			0		other	0
+87	Picture	First Choice	1176590	0	0	7500	0	0	next	false_alarm	116
+87	Response	1	1183981	7391	0
+88	Picture	Comp Choice	1184090	0	0	20156	0	0	next	other	0
+89	Picture	Final Choice	1204246	0	0	10000	0	0	next	false_alarm	119
+89	Response	1	1214122	9876	0
+90	Picture	Answer	1214246	0	0	9062	0	0	next	false_alarm	121
+90	Response	11	1223228	8983	0
+91	Picture	ITI	1223308	0	0	5156	0	0	next	other	0
+92	Picture	ITI	1228465	0	0	5156	0	0	next	other	0
+93	Picture	fix	1233621	0	0	5156	0	0	next	other	0
+94	Picture	pic	1238777	0	0	30156	0	0	next	other	0
+95	Nothing	Trial:11;FC:1; CC:1; FNL:1; ANS:1	1268777	0	0			0		other	0
+96	Picture	First Choice	1268933	0	0	17344	0	0	next	false_alarm	128
+96	Response	2	1286221	17287	0
+97	Picture	Comp Choice	1286277	0	0	20156	0	0	next	other	0
+98	Picture	Final Choice	1306433	0	0	23594	0	0	next	false_alarm	131
+98	Response	3	1329893	23460	0
+99	Picture	Answer	1330027	0	0	8125	0	0	next	false_alarm	133
+99	Response	11	1338108	8081	0
+100	Picture	ITI	1338152	0	0	5156	0	0	next	other	0
+101	Picture	ITI	1343308	0	0	5156	0	0	next	other	0
+102	Picture	fix	1348465	0	0	5156	0	0	next	other	0
+103	Picture	pic	1353621	0	0	30156	0	0	next	other	0
+104	Nothing	Trial:12;FC:2; CC:3; FNL:3; ANS:3	1383621	0	0			0		other	0
+105	Picture	First Choice	1383777	0	0	14219	0	0	next	false_alarm	140
+105	Response	4	1397818	14041	0
+106	Picture	Comp Choice	1397996	0	0	20156	0	0	next	other	0
+107	Picture	Final Choice	1418152	0	0	29531	0	0	next	false_alarm	143
+107	Response	5	1447540	29388	0
+108	Picture	Answer	1447683	0	0	12656	0	0	next	false_alarm	145
+108	Response	11	1460159	12475	0
+109	Picture	ITI	1460340	0	0	5156	0	0	next	other	0
+110	Picture	ITI	1465496	0	0	5156	0	0	next	other	0
+111	Picture	fix	1470652	0	0	5156	0	0	next	other	0
+112	Picture	pic	1475808	0	0	30156	0	0	next	other	0
+113	Nothing	Trial:13;FC:4; CC:5; FNL:5; ANS:4	1505809	0	0			0		other	0
+114	Picture	First Choice	1505965	0	0	5938	0	0	next	false_alarm	152
+114	Response	1	1511821	5857	0
+115	Picture	Comp Choice	1511902	0	0	20156	0	0	next	other	0
+116	Picture	Final Choice	1532058	0	0	36250	0	0	next	false_alarm	155
+116	Response	2	1568103	36044	0
+117	Picture	Answer	1568308	0	0	10781	0	0	next	false_alarm	157
+117	Response	11	1578952	10644	0
+118	Picture	ITI	1579090	0	0	5156	0	0	next	other	0
+119	Picture	ITI	1584246	0	0	5156	0	0	next	other	0
+120	Picture	fix	1589402	0	0	5156	0	0	next	other	0
+121	Picture	pic	1594558	0	0	30156	0	0	next	other	0
+122	Nothing	Trial:14;FC:1; CC:2; FNL:2; ANS:2	1624559	0	1			0		other	0
+123	Picture	First Choice	1624715	0	0	9688	0	0	next	false_alarm	164
+123	Response	5	1634259	9545	0
+124	Picture	Comp Choice	1634402	0	0	20156	0	0	next	other	0
+125	Picture	Final Choice	1654558	0	0	20625	0	0	next	false_alarm	167
+125	Response	6	1674996	20438	0
+126	Picture	Answer	1675183	0	0	10313	0	0	next	false_alarm	169
+126	Response	11	1685366	10183	0
+127	Picture	ITI	1685496	0	0	5156	0	0	next	other	0
+128	Picture	ITI	1690652	0	0	5156	0	0	next	other	0
+129	Picture	fix	1695808	0	0	5156	0	0	next	other	0
+130	Picture	pic	1700965	0	0	30156	0	0	next	other	0
+131	Nothing	Trial:15;FC:5; CC:6; FNL:6; ANS:6	1730965	0	1			0		other	0
+132	Picture	First Choice	1731121	0	0	12656	0	0	next	false_alarm	176
+132	Response	2	1743726	12605	0
+133	Picture	Comp Choice	1743777	0	0	20156	0	0	next	other	0
+134	Picture	Final Choice	1763933	0	0	22500	0	0	next	false_alarm	179
+134	Response	3	1786317	22384	0
+135	Picture	Answer	1786433	0	0	9531	0	0	next	false_alarm	181
+135	Response	11	1795833	9400	1
+136	Picture	ITI	1795965	0	0	5156	0	0	next	other	0
+137	Picture	ITI	1801121	0	0	5156	0	0	next	other	0
+138	Picture	fix	1806277	0	0	5156	0	0	next	other	0
+139	Picture	pic	1811433	0	0	30156	0	0	next	other	0
+140	Nothing	Trial:16;FC:2; CC:3; FNL:3; ANS:3	1841434	0	1			0		other	0
+141	Picture	First Choice	1841590	0	0	16875	0	0	next	false_alarm	188
+141	Response	7	1858338	16749	0
+142	Picture	Comp Choice	1858465	0	0	20156	0	0	next	other	0
+143	Picture	Final Choice	1878621	0	0	25000	0	0	next	false_alarm	191
+143	Response	8	1903494	24873	0
+144	Picture	Answer	1903621	0	0	7500	0	0	next	false_alarm	193
+144	Response	11	1911049	7428	0
+145	Picture	ITI	1911121	0	0	5156	0	0	next	other	0
+146	Picture	ITI	1916277	0	0	5156	0	0	next	other	0
+147	Picture	fix	1921433	0	0	5156	0	0	next	other	0
+148	Picture	pic	1926590	0	0	30156	0	0	next	other	0
+149	Nothing	Trial:17;FC:7; CC:8; FNL:8; ANS:8	1956590	0	1			0		other	0
+150	Picture	First Choice	1956746	0	0	17500	0	0	next	false_alarm	200
+150	Response	2	1974112	17367	0
+151	Picture	Comp Choice	1974246	0	0	20156	0	0	next	other	0
+152	Picture	Final Choice	1994402	0	0	10312	0	0	next	false_alarm	203
+152	Response	2	2004506	10104	0
+153	Picture	Answer	2004715	0	0	7031	0	0	next	false_alarm	205
+153	Response	11	2011605	6891	0
+154	Picture	ITI	2011746	0	0	5156	0	0	next	other	0
+155	Picture	ITI	2016902	0	0	5156	0	0	next	other	0
+156	Picture	fix	2022058	0	0	5156	0	0	next	other	0
+157	Picture	pic	2027215	0	0	30156	0	0	next	other	0
+158	Nothing	Trial:18;FC:2; CC:2; FNL:2; ANS:2	2057215	0	1			0		other	0
+159	Picture	First Choice	2057371	0	0	13906	0	0	next	false_alarm	212
+159	Response	2	2071184	13813	0
+160	Picture	Comp Choice	2071277	0	0	20156	0	0	next	other	0
+161	Picture	Final Choice	2091433	0	0	21406	0	0	next	false_alarm	215
+161	Response	3	2112774	21341	0
+162	Picture	Answer	2112840	0	0	9531	0	0	next	false_alarm	217
+162	Response	11	2122324	9484	0
+163	Picture	ITI	2122371	0	0	5156	0	0	next	other	0
+164	Picture	ITI	2127527	0	0	5156	0	0	next	other	0
+165	Picture	fix	2132683	0	0	5156	0	0	next	other	0
+166	Picture	pic	2137840	0	0	30156	0	0	next	other	0
+167	Nothing	Trial:19;FC:2; CC:3; FNL:3; ANS:3	2167840	0	0			0		other	0
+168	Picture	First Choice	2167996	0	0	14219	0	0	next	false_alarm	224
+168	Response	6	2182051	14056	0
+169	Picture	Comp Choice	2182215	0	0	20156	0	0	next	other	0
+170	Picture	Final Choice	2202371	0	0	10938	0	0	next	false_alarm	227
+170	Response	6	2213243	10872	0
+171	Picture	Answer	2213308	0	0	7031	0	0	next	false_alarm	229
+171	Response	11	2220179	6871	0
+172	Picture	ITI	2220340	0	0	5156	0	0	next	other	0
+173	Picture	ITI	2225496	0	0	5156	0	0	next	other	0
+174	Picture	fix	2230652	0	0	5156	0	0	next	other	0
+175	Picture	pic	2235808	0	0	30156	0	0	next	other	0
+176	Nothing	Trial:20;FC:6; CC:6; FNL:6; ANS:6	2265809	0	1			0		other	0
+177	Picture	First Choice	2265965	0	0	13594	0	0	next	false_alarm	236
+177	Response	6	2279485	13520	0
+178	Picture	Comp Choice	2279558	0	0	20156	0	0	next	other	0
+179	Picture	Final Choice	2299715	0	0	14063	0	0	next	false_alarm	239
+179	Response	6	2313645	13931	0
+180	Picture	Answer	2313777	0	0	7500	0	0	next	false_alarm	241
+180	Response	11	2321238	7461	0
+181	Picture	ITI	2321277	0	0	5156	0	0	next	other	0
+182	Picture	ITI	2326433	0	0	5156	0	0	next	other	0
+183	Picture	fix	2331590	0	0	5156	0	0	next	other	0
+184	Picture	pic	2336746	0	0	30156	0	0	next	other	0
+185	Nothing	Trial:21;FC:6; CC:6; FNL:6; ANS:6	2366746	0	0			0		other	0
+186	Picture	First Choice	2366902	0	0	19844	0	0	next	false_alarm	248
+186	Response	2	2386638	19736	0
+187	Picture	Comp Choice	2386746	0	0	20156	0	0	next	other	0
+188	Picture	Final Choice	2406902	0	0	24219	0	0	next	false_alarm	251
+188	Response	3	2430982	24080	0
+189	Picture	Answer	2431121	0	0	7969	0	0	next	false_alarm	253
+189	Response	11	2439036	7915	0
+190	Picture	ITI	2439090	0	0	5156	0	0	next	other	0
+191	Picture	ITI	2444246	0	0	5156	0	0	next	other	0
+192	Picture	fix	2449402	0	0	5156	0	0	next	other	0
+193	Picture	pic	2454558	0	0	30156	0	0	next	other	0
+194	Nothing	Trial:22;FC:2; CC:3; FNL:3; ANS:3	2484559	0	0			0		other	0
+195	Picture	First Choice	2484715	0	0	9531	0	0	next	false_alarm	260
+195	Response	4	2494132	9417	0
+196	Picture	Comp Choice	2494246	0	0	20156	0	0	next	other	0
+197	Picture	Final Choice	2514402	0	0	13906	0	0	next	false_alarm	263
+197	Response	4	2528143	13741	0
+198	Picture	Answer	2528308	0	0	7031	0	0	next	false_alarm	265
+198	Response	11	2535225	6917	0
+199	Picture	ITI	2535340	0	0	5156	0	0	next	other	0
+200	Picture	ITI	2540496	0	0	5156	0	0	next	other	0
+201	Picture	fix	2545652	0	0	5156	0	0	next	other	0
+202	Picture	pic	2550808	0	0	30156	0	0	next	other	0
+203	Nothing	Trial:23;FC:4; CC:4; FNL:4; ANS:4	2580809	0	0			0		other	0
+204	Picture	First Choice	2580965	0	0	9219	0	0	next	false_alarm	272
+204	Response	10	2590067	9102	0
+205	Picture	Comp Choice	2590183	0	0	20156	0	0	next	other	0
+206	Picture	Final Choice	2610340	0	0	10781	0	0	next	false_alarm	275
+206	Response	10	2621046	10707	0
+207	Picture	Answer	2621121	0	0	6406	0	0	next	false_alarm	277
+207	Response	11	2627415	6294	0
+208	Picture	ITI	2627527	0	0	5156	0	0	next	other	0
+209	Picture	ITI	2632683	0	0	5156	0	0	next	other	0
+210	Picture	fix	2637840	0	0	5156	0	0	next	other	0
+211	Picture	pic	2642996	0	0	30156	0	0	next	other	0
+212	Nothing	Trial:24;FC:10; CC:10; FNL:10; ANS:10	2672996	0	1			0		other	0
+213	Picture	First Choice	2673152	0	0	12188	0	0	next	false_alarm	284
+213	Response	5	2685164	12012	0
+214	Picture	Comp Choice	2685340	0	0	20156	0	0	next	other	0
+215	Picture	Final Choice	2705496	0	0	61719	0	0	next	false_alarm	287
+215	Response	5	2767036	61540	0
+216	Picture	Answer	2767215	0	0	16563	0	0	next	false_alarm	289
+216	Response	11	2783685	16470	0
+217	Picture	ITI	2783777	0	0	5156	0	0	next	other	0
+218	Picture	ITI	2788933	0	0	5156	0	0	next	other	0
+219	Picture	fix	2794090	0	0	5156	0	0	next	other	0
+220	Picture	pic	2799246	0	0	30156	0	0	next	other	0
+221	Nothing	Trial:25;FC:5; CC:8; FNL:5; ANS:7	2829246	0	1			0		other	0
+222	Picture	First Choice	2829402	0	0	7812	0	0	next	false_alarm	296
+222	Response	2	2837154	7752	0
+223	Picture	Comp Choice	2837215	0	0	20156	0	0	next	other	0
+224	Picture	Final Choice	2857371	0	0	57500	0	0	next	false_alarm	299
+224	Response	2	2914704	57333	0
+225	Picture	Answer	2914871	0	0	16719	0	0	next	false_alarm	301
+225	Response	11	2931442	16572	0
+226	Picture	ITI	2931590	0	0	5156	0	0	next	other	0
+227	Picture	ITI	2936746	0	0	5156	0	0	next	other	0
+228	Picture	fix	2941902	0	0	5156	0	0	next	other	0
+229	Picture	pic	2947058	0	0	30156	0	0	next	other	0
+230	Nothing	Trial:26;FC:2; CC:5; FNL:2; ANS:5	2977059	0	1			0		other	0
+231	Picture	First Choice	2977215	0	0	10938	0	0	next	false_alarm	308
+231	Response	2	2988030	10815	0
+232	Picture	Comp Choice	2988152	0	0	20156	0	0	next	other	0
+233	Picture	Final Choice	3008308	0	0	17813	0	0	next	false_alarm	311
+233	Response	3	3026053	17745	0
+234	Picture	Answer	3026121	0	0	8750	0	0	next	false_alarm	313
+234	Response	11	3034845	8724	0
+235	Picture	ITI	3034871	0	0	5156	0	0	next	other	0
+236	Picture	ITI	3040027	0	0	5156	0	0	next	other	0
+237	Picture	fix	3045183	0	0	5156	0	0	next	other	0
+238	Picture	pic	3050340	0	0	30156	0	0	next	other	0
+239	Nothing	Trial:27;FC:2; CC:3; FNL:3; ANS:3	3080340	0	0			0		other	0
+240	Picture	First Choice	3080496	0	0	19375	0	0	next	false_alarm	320
+240	Response	6	3099766	19271	0
+241	Picture	Comp Choice	3099871	0	0	20156	0	0	next	other	0
+242	Picture	Final Choice	3120027	0	0	26250	0	0	next	false_alarm	323
+242	Response	8	3146177	26150	0
+243	Picture	Answer	3146277	0	0	8281	0	0	next	false_alarm	325
+243	Response	11	3154502	8225	0
+244	Picture	ITI	3154558	0	0	5156	0	0	next	other	0
+245	Picture	ITI	3159715	0	0	5156	0	0	next	other	0
+246	Picture	fix	3164871	0	0	5156	0	0	next	other	0
+247	Picture	pic	3170027	0	0	30156	0	0	next	other	0
+248	Nothing	Trial:28;FC:6; CC:8; FNL:8; ANS:8	3200027	0	0			0		other	0
+249	Picture	First Choice	3200183	0	0	9375	0	0	next	false_alarm	332
+249	Response	2	3209377	9194	0
+250	Picture	Comp Choice	3209558	0	0	20156	0	0	next	other	0
+251	Picture	Final Choice	3229715	0	0	13281	0	0	next	false_alarm	335
+251	Response	2	3242864	13149	0
+252	Picture	Answer	3242996	0	0	8750	0	0	next	false_alarm	337
+252	Response	11	3251639	8643	0
+253	Picture	ITI	3251746	0	0	5156	0	0	next	other	0
+254	Picture	ITI	3256902	0	0	5156	0	0	next	other	0
+255	Picture	fix	3262058	0	0	5156	0	0	next	other	0
+256	Picture	pic	3267215	0	0	30156	0	0	next	other	0
+257	Nothing	Trial:29;FC:2; CC:2; FNL:2; ANS:2	3297215	0	0			0		other	0
+258	Picture	First Choice	3297371	0	0	2813	0	0	next	false_alarm	344
+258	Response	1	3300118	2747	0
+259	Picture	Comp Choice	3300183	0	0	20156	0	0	next	other	0
+260	Picture	Final Choice	3320340	0	0	12344	0	0	next	false_alarm	347
+260	Response	1	3332597	12257	0
+261	Picture	Answer	3332683	0	0	7969	0	0	next	false_alarm	349
+261	Response	11	3340582	7899	0
+262	Picture	ITI	3340652	0	0	5156	0	0	next	other	0
+263	Picture	ITI	3345808	0	0	5156	0	0	next	other	0
+264	Picture	fix	3350965	0	0	5156	0	0	next	other	0
+265	Picture	pic	3356121	0	0	30156	0	0	next	other	0
+266	Nothing	Trial:30;FC:1; CC:1; FNL:1; ANS:1	3386121	0	0			0		other	0
+267	Picture	First Choice	3386277	0	0	12031	0	0	next	false_alarm	356
+267	Response	10	3398149	11871	0
+268	Picture	Comp Choice	3398308	0	0	20156	0	0	next	other	0
+269	Picture	Final Choice	3418465	0	0	20156	0	0	next	false_alarm	359
+269	Response	1	3438445	19980	0
+270	Picture	Answer	3438621	0	0	9688	0	0	next	false_alarm	361
+270	Response	11	3448221	9600	0
+271	Picture	ITI	3448308	0	0	5156	0	0	next	other	0
+272	Picture	ITI	3453465	0	0	5156	0	0	next	other	0
+273	Picture	fix	3458621	0	0	5156	0	0	next	other	0
+274	Picture	pic	3463777	0	0	30156	0	0	next	other	0
+275	Nothing	Trial:31;FC:10; CC:1; FNL:1; ANS:1	3493777	0	0			0		other	0
+276	Picture	First Choice	3493933	0	0	12500	0	0	next	false_alarm	368
+276	Response	5	3506261	12328	0
+277	Picture	Comp Choice	3506433	0	0	20156	0	0	next	other	0
+278	Picture	Final Choice	3526590	0	0	18594	0	0	next	false_alarm	371
+278	Response	6	3545026	18436	0
+279	Picture	Answer	3545183	0	0	6094	0	0	next	false_alarm	373
+279	Response	11	3551203	6019	0
+280	Picture	ITI	3551277	0	0	5156	0	0	next	other	0
+281	Picture	ITI	3556433	0	0	5156	0	0	next	other	0
+282	Picture	fix	3561590	0	0	5156	0	0	next	other	0
+283	Picture	pic	3566746	0	0	30156	0	0	next	other	0
+284	Nothing	Trial:32;FC:5; CC:6; FNL:6; ANS:6	3596746	0	0			0		other	0
+285	Picture	First Choice	3596902	0	0	6250	0	0	next	false_alarm	380
+285	Response	3	3603043	6141	0
+286	Picture	Comp Choice	3603152	0	0	20156	0	0	next	other	0
+287	Picture	Final Choice	3623308	0	0	11563	0	0	next	false_alarm	383
+287	Response	3	3634721	11413	0
+288	Picture	Answer	3634871	0	0	6406	0	0	next	false_alarm	385
+288	Response	11	3641238	6367	0
+289	Picture	ITI	3641277	0	0	5156	0	0	next	other	0
+290	Picture	ITI	3646433	0	0	5156	0	0	next	other	0
+291	Picture	fix	3651590	0	0	5156	0	0	next	other	0
+292	Picture	pic	3656746	0	0	30156	0	0	next	other	0
+293	Nothing	Trial:33;FC:3; CC:3; FNL:3; ANS:3	3686746	0	1			0		other	0
+294	Picture	First Choice	3686902	0	0	6562	0	0	next	false_alarm	392
+294	Response	2	3693299	6397	0
+295	Picture	Comp Choice	3693465	0	0	20156	0	0	next	other	0
+296	Picture	Final Choice	3713621	0	0	47188	0	0	next	false_alarm	395
+296	Response	2	3760736	47115	0
+297	Picture	Answer	3760808	0	0	11563	0	0	next	false_alarm	397
+297	Response	11	3772191	11383	0
+298	Picture	ITI	3772371	0	0	5156	0	0	next	other	0
+299	Picture	ITI	3777527	0	0	5156	0	0	next	other	0
+300	Picture	fix	3782683	0	0	5156	0	0	next	other	0
+301	Picture	pic	3787840	0	0	30156	0	0	next	other	0
+302	Nothing	Trial:34;FC:2; CC:4; FNL:2; ANS:2	3817840	0	0			0		other	0
+303	Picture	First Choice	3817996	0	0	17969	0	0	next	false_alarm	404
+303	Response	6	3835774	17778	0
+304	Picture	Comp Choice	3835965	0	0	20156	0	0	next	other	0
+305	Picture	Final Choice	3856121	0	0	17969	0	0	next	false_alarm	407
+305	Response	7	3873949	17828	0
+306	Picture	Answer	3874090	0	0	6563	0	0	next	false_alarm	409
+306	Response	11	3880496	6407	0
+307	Picture	ITI	3880652	0	0	5156	0	0	next	other	0
+308	Picture	ITI	3885808	0	0	5156	0	0	next	other	0
+309	Picture	fix	3890965	0	0	5156	0	0	next	other	0
+310	Picture	pic	3896121	0	0	30156	0	0	next	other	0
+311	Nothing	Trial:35;FC:6; CC:7; FNL:7; ANS:7	3926121	0	1			0		other	0
+312	Picture	First Choice	3926277	0	0	23594	0	0	next	false_alarm	416
+312	Response	6	3949684	23407	0
+313	Picture	Comp Choice	3949871	0	0	20156	0	0	next	other	0
+314	Picture	Final Choice	3970027	0	0	36406	0	0	next	false_alarm	419
+314	Response	7	4006359	36332	0
+315	Picture	Answer	4006433	0	0	9219	0	0	next	false_alarm	421
+315	Response	11	4015591	9158	0
+316	Picture	ITI	4015652	0	0	5156	0	0	next	other	0
+317	Picture	ITI	4020808	0	0	5156	0	0	next	other	0
+318	Picture	fix	4025965	0	0	5156	0	0	next	other	0
+319	Picture	pic	4031121	0	0	30156	0	0	next	other	0
+320	Nothing	Trial:36;FC:6; CC:7; FNL:7; ANS:7	4061121	0	1			0		other	0
+321	Picture	First Choice	4061277	0	0	7813	0	0	next	false_alarm	428
+321	Response	3	4069022	7745	0
+322	Picture	Comp Choice	4069090	0	0	20156	0	0	next	other	0
+323	Picture	Final Choice	4089246	0	0	30781	0	0	next	false_alarm	431
+323	Response	4	4119819	30573	0
+324	Picture	Answer	4120027	0	0	11875	0	0	next	false_alarm	433
+324	Response	11	4131772	11745	0
+325	Picture	ITI	4131902	0	0	5156	0	0	next	other	0
+326	Picture	ITI	4137058	0	0	5156	0	0	next	other	0
+327	Picture	fix	4142215	0	0	5156	0	0	next	other	0
+328	Picture	pic	4147371	0	0	30156	0	0	next	other	0
+329	Nothing	Trial:37;FC:3; CC:4; FNL:4; ANS:3	4177371	0	0			0		other	0
+330	Picture	First Choice	4177527	0	0	9844	0	0	next	false_alarm	440
+330	Response	1	4187256	9729	0
+331	Picture	Comp Choice	4187371	0	0	20156	0	0	next	other	0
+332	Picture	Final Choice	4207527	0	0	17031	0	0	next	false_alarm	443
+332	Response	1	4224422	16895	0
+333	Picture	Answer	4224558	0	0	10938	0	0	next	false_alarm	445
+333	Response	11	4235402	10844	0
+334	Picture	ITI	4235496	0	0	5156	0	0	next	other	0
+335	Picture	ITI	4240652	0	0	5156	0	0	next	other	0
+336	Picture	fix	4245808	0	0	5156	0	0	next	other	0
+337	Picture	pic	4250965	0	0	30156	0	0	next	other	0
+338	Nothing	Trial:38;FC:1; CC:10; FNL:1; ANS:1	4280965	0	0			0		other	0
+339	Picture	First Choice	4281121	0	0	8594	0	0	next	false_alarm	452
+339	Response	1	4289517	8397	0
+340	Picture	Comp Choice	4289715	0	0	20156	0	0	next	other	0
+341	Picture	Final Choice	4309871	0	0	28125	0	0	next	false_alarm	455
+341	Response	10	4337817	27946	0
+342	Picture	Answer	4337996	0	0	10938	0	0	next	false_alarm	457
+342	Response	11	4348898	10902	0
+343	Picture	ITI	4348933	0	0	5156	0	0	next	other	0
+344	Picture	ITI	4354090	0	0	5156	0	0	next	other	0
+345	Picture	fix	4359246	0	0	5156	0	0	next	other	0
+346	Picture	pic	4364402	0	0	30156	0	0	next	other	0
+347	Nothing	Trial:39;FC:1; CC:10; FNL:10; ANS:10	4394402	0	0			0		other	0
+348	Picture	First Choice	4394558	0	0	7500	0	0	next	false_alarm	464
+348	Response	1	4401867	7308	0
+349	Picture	Comp Choice	4402058	0	0	20156	0	0	next	other	0
+350	Picture	Final Choice	4422215	0	0	11875	0	0	next	false_alarm	467
+350	Response	1	4433946	11731	0
+351	Picture	Answer	4434090	0	0	8437	0	0	next	false_alarm	469
+351	Response	11	4442400	8311	0
+352	Picture	ITI	4442527	0	0	5156	0	0	next	other	0
+353	Picture	ITI	4447683	0	0	5156	0	0	next	other	0
+354	Picture	fix	4452840	0	0	5156	0	0	next	other	0
+355	Picture	pic	4457996	0	0	30156	0	0	next	other	0
+356	Nothing	Trial:40;FC:1; CC:1; FNL:1; ANS:1	4487996	0	1			0		other	0
+357	Picture	First Choice	4488152	0	0	10625	0	0	next	false_alarm	476
+357	Response	3	4498577	10425	0
+358	Picture	Comp Choice	4498777	0	0	20156	0	0	next	other	0
+359	Picture	Final Choice	4518933	0	0	27813	0	0	next	false_alarm	479
+359	Response	5	4546601	27668	0
+360	Picture	Answer	4546746	0	0	8594	0	0	next	false_alarm	481
+360	Response	11	4555287	8541	0
+361	Picture	ITI	4555340	0	0	5156	0	0	next	other	0
+362	Picture	ITI	4560496	0	0	5156	0	0	next	other	0
+363	Picture	fix	4565652	0	0	5156	0	0	next	other	0
+364	Picture	pic	4570808	0	0	30156	0	0	next	other	0
+365	Nothing	Trial:41;FC:3; CC:5; FNL:5; ANS:5	4600809	0	0			0		other	0
+366	Picture	First Choice	4600965	0	0	13906	0	0	next	false_alarm	488
+366	Response	10	4614737	13773	0
+367	Picture	Comp Choice	4614871	0	0	20156	0	0	next	other	0
+368	Picture	Final Choice	4635027	0	0	10469	0	0	next	false_alarm	491
+368	Response	10	4645304	10277	0
+369	Picture	Answer	4645496	0	0	6250	0	0	next	false_alarm	493
+369	Response	11	4651677	6181	0
+370	Picture	ITI	4651746	0	0	5156	0	0	next	other	0
+371	Picture	ITI	4656902	0	0	5156	0	0	next	other	0
+372	Picture	fix	4662058	0	0	5156	0	0	next	other	0
+373	Picture	pic	4667215	0	0	30156	0	0	next	other	0
+374	Nothing	Trial:42;FC:10; CC:10; FNL:10; ANS:10	4697215	0	0			0		other	0
+375	Picture	First Choice	4697371	0	0	11094	0	0	next	false_alarm	500
+375	Response	2	4708368	10997	0
+376	Picture	Comp Choice	4708465	0	0	20156	0	0	next	other	0
+377	Picture	Final Choice	4728621	0	0	34219	0	0	next	false_alarm	503
+377	Response	4	4762661	34041	0
+378	Picture	Answer	4762840	0	0	7969	0	0	next	false_alarm	505
+378	Response	11	4770752	7913	0
+379	Picture	ITI	4770808	0	0	5156	0	0	next	other	0
+380	Picture	ITI	4775965	0	0	5156	0	0	next	other	0
+381	Picture	fix	4781121	0	0	5156	0	0	next	other	0
+382	Picture	pic	4786277	0	0	30156	0	0	next	other	0
+383	Nothing	Trial:43;FC:2; CC:4; FNL:4; ANS:4	4816277	0	0			0		other	0
+384	Picture	First Choice	4816433	0	0	19375	0	0	next	false_alarm	512
+384	Response	5	4835639	19206	0
+385	Picture	Comp Choice	4835808	0	0	20156	0	0	next	other	0
+386	Picture	Final Choice	4855965	0	0	22813	0	0	next	false_alarm	515
+386	Response	7	4878669	22704	0
+387	Picture	Answer	4878777	0	0	7656	0	0	next	false_alarm	517
+387	Response	11	4886381	7604	0
+388	Picture	ITI	4886433	0	0	5156	0	0	next	other	0
+389	Picture	ITI	4891590	0	0	5156	0	0	next	other	0
+390	Picture	fix	4896746	0	0	5156	0	0	next	other	0
+391	Picture	pic	4901902	0	0	30156	0	0	next	other	0
+392	Nothing	Trial:44;FC:5; CC:7; FNL:7; ANS:7	4931902	0	0			0		other	0
+393	Picture	First Choice	4932058	0	0	15469	0	0	next	false_alarm	524
+393	Response	2	4947336	15278	0
+394	Picture	Comp Choice	4947527	0	0	20156	0	0	next	other	0
+395	Picture	Final Choice	4967683	0	0	12656	0	0	next	false_alarm	527
+395	Response	2	4980130	12447	0
+396	Picture	Answer	4980340	0	0	7813	0	0	next	false_alarm	529
+396	Response	11	4988003	7664	0
+397	Picture	ITI	4988152	0	0	5156	0	0	next	other	0
+398	Picture	ITI	4993308	0	0	5156	0	0	next	other	0
+399	Picture	fix	4998465	0	0	5156	0	0	next	other	0
+400	Picture	pic	5003621	0	0	30156	0	0	next	other	0
+401	Nothing	Trial:45;FC:2; CC:2; FNL:2; ANS:2	5033621	0	0			0		other	0
+402	Picture	First Choice	5033777	0	0	11875	0	0	next	false_alarm	536
+402	Response	1	5045601	11824	0
+403	Picture	Comp Choice	5045652	0	0	20156	0	0	next	other	0
+404	Picture	Final Choice	5065808	0	0	25313	0	0	next	false_alarm	539
+404	Response	1	5091014	25205	0
+405	Picture	Answer	5091121	0	0	11406	0	0	next	false_alarm	541
+405	Response	11	5102480	11359	0
+406	Picture	ITI	5102527	0	0	8681	0	0	next	other	0
+
+
+{
+   "app": "Presentation Version 20.0 Build 10.19.17",
+   "device": "Dell Inc. Latitude 7480",
+   "experiment": "{2094B016-167B-405E-8477-13F28FFEBDCE}",
+   "os": "Windows 10 64 bit",
+   "package": "",
+   "parameters": {
+      "configuration": "Default configuration"
+   },
+   "scenario": "VisualSearchTask_2.sce",
+   "subject": "",
+   "timestamp": "2018/02/12 23:46:15 GMT"
+}

@@ -1,0 +1,83 @@
+Scenario - MoodQuestionnaire1
+Logfile written - 02/12/2018 15:36:01
+
+Trial	Event Type	Code	Time	TTime	Uncertainty	Duration	Uncertainty	ReqTime	ReqDur	Stim Type	Pair Index
+
+1	Picture	Wait Screen	151	0	0	59375	0	0	next	other	0
+1	Response	1	59456	59306	0
+2	Picture	interested	59526	0	0	89844	0	0	next	other	0
+2	Text Input	3	149241	89716	0
+2	Response	1	149241	89716	0
+3	Picture	distressed	149369	0	0	26563	0	0	next	other	0
+3	Text Input	1	175804	26434	0
+3	Response	1	175804	26434	0
+4	Picture	excited	175932	0	0	22031	0	0	next	other	0
+4	Text Input	2	197912	21980	0
+4	Response	1	197912	21980	0
+5	Picture	upset	197963	0	0	20469	0	0	next	other	0
+5	Text Input	1	218337	20374	0
+5	Response	1	218337	20374	0
+6	Picture	strong	218432	0	0	37969	0	0	next	other	0
+6	Text Input	3	256247	37815	0
+6	Response	1	256247	37815	0
+7	Picture	guilty	256401	0	0	20000	0	0	next	other	0
+7	Text Input	1	276236	19835	0
+7	Response	1	276236	19835	0
+8	Picture	scared	276401	0	0	19219	0	0	next	other	0
+8	Text Input	2	295514	19113	0
+8	Response	1	295514	19113	0
+9	Picture	hostile	295619	0	0	21406	0	0	next	other	0
+9	Text Input	1	316976	21356	0
+9	Response	1	316976	21356	0
+10	Picture	enthusiastic	317026	0	0	22500	0	0	next	other	0
+10	Text Input	2	339361	22335	0
+10	Response	1	339361	22335	0
+11	Picture	proud	339526	0	0	45938	0	0	next	other	0
+11	Text Input	3	385296	45770	0
+11	Response	1	385296	45770	0
+12	Picture	irritable	385463	0	0	18750	0	0	next	other	0
+12	Text Input	1	404182	18718	0
+12	Response	1	404182	18718	0
+13	Picture	alert	404213	0	0	24531	0	0	next	other	0
+13	Text Input	3	428707	24493	0
+13	Response	1	428707	24493	0
+14	Picture	ashamed	428744	0	0	30938	0	0	next	other	0
+14	Text Input	1	459534	30790	0
+14	Response	1	459534	30790	0
+15	Picture	inspired	459682	0	0	46719	0	0	next	other	0
+15	Text Input	2	506246	46564	0
+15	Response	1	506246	46564	0
+16	Picture	nervous	506401	0	0	14844	0	0	next	other	0
+16	Text Input	2	521121	14720	0
+16	Response	1	521121	14720	0
+17	Picture	determined	521244	0	0	37031	0	0	next	other	0
+17	Text Input	2	558192	36947	0
+17	Response	1	558192	36947	0
+18	Picture	attentive	558276	0	0	24219	0	0	next	other	0
+18	Text Input	3	582345	24070	0
+18	Response	1	582345	24070	0
+19	Picture	jittery	582494	0	0	26406	0	0	next	other	0
+19	Text Input	2	608799	26304	0
+19	Response	1	608799	26304	0
+20	Picture	active	608901	0	0	41406	0	0	next	other	0
+20	Text Input	3	650142	41241	0
+20	Response	1	650142	41241	0
+21	Picture	afraid	650307	0	0	17813	0	0	next	other	0
+21	Text Input	1	667992	17685	0
+21	Response	1	667992	17685	0
+22	Picture	Next	668119	0	0	33476	0	0	next	other	0
+
+
+{
+   "app": "Presentation Version 20.0 Build 10.19.17",
+   "device": "Dell Inc. Latitude 7480",
+   "experiment": "{2094B016-167B-405E-8477-13F28FFEBDCE}",
+   "os": "Windows 10 64 bit",
+   "package": "",
+   "parameters": {
+      "configuration": "Default configuration"
+   },
+   "scenario": "MoodQuestionnaire_1.sce",
+   "subject": "",
+   "timestamp": "2018/02/12 23:34:51 GMT"
+}

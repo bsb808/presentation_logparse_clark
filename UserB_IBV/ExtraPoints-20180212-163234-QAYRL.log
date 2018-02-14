@@ -1,0 +1,24 @@
+Scenario - ExtraPoints
+Logfile written - 02/12/2018 16:32:53
+
+Trial	Event Type	Code	Time	TTime	Uncertainty	Duration	Uncertainty	ReqTime	ReqDur	Stim Type	Pair Index
+
+0	Text Input	10	152718	152718	0
+0	Response	1	152718	152718	0
+1	Picture	GamblerCheck	152763	0	0	156	0	0	next	other	0
+2	Response	1	185890	32971	0
+
+
+{
+   "app": "Presentation Version 20.0 Build 10.19.17",
+   "device": "Dell Inc. Latitude 7480",
+   "experiment": "{2094B016-167B-405E-8477-13F28FFEBDCE}",
+   "os": "Windows 10 64 bit",
+   "package": "",
+   "parameters": {
+      "configuration": "Default configuration"
+   },
+   "scenario": "ExtraPoints.sce",
+   "subject": "",
+   "timestamp": "2018/02/13 00:32:34 GMT"
+}

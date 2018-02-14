@@ -1,0 +1,71 @@
+Scenario - Demographics & Questionnaire
+Logfile written - 02/12/2018 16:01:30
+
+Trial	Event Type	Code	Time	TTime	Uncertainty	Duration	Uncertainty	ReqTime	ReqDur	Stim Type	Pair Index
+
+0	Text Input	5	164369	164369	0
+0	Response	1	164369	164369	0
+1	Picture	Trustworthy	164449	0	0	96719	0	0	next	other	0
+1	Text Input	80	261051	96602	0
+1	Response	1	261051	96602	0
+2	Picture	Performance	261168	0	0	98594	0	0	next	other	0
+2	Text Input	5	359679	98511	0
+2	Response	1	359679	98511	0
+3	Picture	Reliable	359762	0	0	40000	0	0	next	other	0
+3	Text Input	35	399636	39874	0
+3	Response	1	399636	39874	0
+4	Picture	age	399762	0	0	56875	0	0	next	other	0
+4	Text Input	female	456483	56722	0
+4	Response	1	456483	56722	0
+5	Picture	gender	456637	0	0	173437	0	0	next	other	0
+5	Text Input	yes	629911	173274	0
+5	Response	1	629911	173274	0
+6	Picture	vision	630074	0	0	69219	0	0	next	other	0
+6	Text Input	4	699170	69096	0
+6	Response	1	699170	69096	0
+7	Picture	ed	699293	0	0	73906	0	0	next	other	0
+7	Text Input	military	773176	73883	0
+7	Response	1	773176	73883	0
+8	Picture	occupation	773199	0	0	182969	0	0	next	other	0
+8	Text Input	navy, swo and edo	956042	182843	0
+8	Response	1	956042	182843	0
+9	Picture	military	956168	0	0	52813	0	0	next	other	0
+9	Text Input	2	1008929	52761	0
+9	Response	1	1008929	52761	0
+10	Picture	comfy	1008980	0	0	38594	0	0	next	other	0
+10	Text Input	3	1047504	38523	0
+10	Response	1	1047504	38523	0
+11	Picture	play	1047574	0	0	243438	0	0	next	other	0
+11	Text Input	1,4	1290869	243295	0
+11	Response	1	1290869	243295	0
+12	Picture	automation	1291012	0	0	119375	0	0	next	other	0
+12	Text Input	1	1410316	119305	0
+12	Response	1	1410316	119305	0
+13	Picture	swift	1410387	0	0	699219	0	0	next	other	0
+13	Text Input	1	1667985	257598	0
+13	Response	1	1667985	257598	0
+13	Text Input	3	1848223	437836	0
+13	Response	1	1848223	437836	0
+13	Text Input	4	1928280	517893	0
+13	Response	1	1928280	517893	0
+13	Text Input	2	1995384	584997	0
+13	Response	1	1995384	584997	0
+13	Text Input	5	2109442	699055	0
+13	Response	1	2109442	699055	0
+14	Picture	Offensive	2109605	0	0	156	0	0	next	other	0
+15	Response	1	2129340	19578	0
+
+
+{
+   "app": "Presentation Version 20.0 Build 10.19.17",
+   "device": "Dell Inc. Latitude 7480",
+   "experiment": "{2094B016-167B-405E-8477-13F28FFEBDCE}",
+   "os": "Windows 10 64 bit",
+   "package": "",
+   "parameters": {
+      "configuration": "Default configuration"
+   },
+   "scenario": "Demographics.sce",
+   "subject": "",
+   "timestamp": "2018/02/12 23:57:56 GMT"
+}

@@ -1,0 +1,53 @@
+Scenario - SelfEfficacy
+Logfile written - 02/12/2018 15:57:56
+
+Trial	Event Type	Code	Time	TTime	Uncertainty	Duration	Uncertainty	ReqTime	ReqDur	Stim Type	Pair Index
+
+1	Picture	Wait Screen	95	0	0	32969	0	0	next	other	0
+1	Response	1	32866	32772	0
+2	Picture	I can manage to solve difficult problems if I try hard enough.	33064	0	0	130000	0	0	next	other	0
+2	Text Input	4	163011	129948	0
+2	Response	1	163011	129948	0
+3	Picture	If someone opposes me, I can find the means and ways to get what I want.	163064	0	0	96563	0	0	next	other	0
+3	Text Input	3	259552	96489	0
+3	Response	1	259552	96489	0
+4	Picture	It is easy for me to stick to my aims and accomplish my goals.	259626	0	0	42188	0	0	next	other	0
+4	Text Input	4	301662	42036	0
+4	Response	1	301662	42036	0
+5	Picture	I am confident that I could deal efficiently with unexpected events.	301814	0	0	81250	0	0	next	other	0
+5	Text Input	4	382984	81170	0
+5	Response	1	382984	81170	0
+6	Picture	Thanks to my talents and skills, I know how to handle unexpected situations.	383064	0	0	103906	0	0	next	other	0
+6	Text Input	4	486850	103786	0
+6	Response	1	486850	103786	0
+7	Picture	I can solve most problems if I try hard enough.	486970	0	0	39531	0	0	next	other	0
+7	Text Input	4	526401	39431	0
+7	Response	1	526401	39431	0
+8	Picture	I stay calm when facing difficulties because I can handle them.	526501	0	0	64375	0	0	next	other	0
+8	Text Input	4	590768	64267	0
+8	Response	1	590768	64267	0
+9	Picture	When I have a problem, I can find several ways to solve it.	590876	0	0	50156	0	0	next	other	0
+9	Text Input	4	640978	50102	0
+9	Response	1	640978	50102	0
+10	Picture	If I am in trouble, I can think of a solution.	641032	0	0	41406	0	0	next	other	0
+10	Text Input	4	682385	41353	0
+10	Response	1	682385	41353	0
+11	Picture	I can handle whatever comes my way.	682439	0	0	32188	0	0	next	other	0
+11	Text Input	4	714522	32083	0
+11	Response	1	714522	32083	0
+12	Picture	Next	714626	0	0	33457	0	0	next	other	0
+
+
+{
+   "app": "Presentation Version 20.0 Build 10.19.17",
+   "device": "Dell Inc. Latitude 7480",
+   "experiment": "{2094B016-167B-405E-8477-13F28FFEBDCE}",
+   "os": "Windows 10 64 bit",
+   "package": "",
+   "parameters": {
+      "configuration": "Default configuration"
+   },
+   "scenario": "SelfEfficacy.sce",
+   "subject": "",
+   "timestamp": "2018/02/12 23:56:41 GMT"
+}

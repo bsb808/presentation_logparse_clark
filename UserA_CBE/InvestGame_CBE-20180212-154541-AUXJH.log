@@ -1,0 +1,28 @@
+Scenario - InvestGameCBE
+Logfile written - 02/12/2018 15:46:15
+
+Trial	Event Type	Code	Time	TTime	Uncertainty	Duration	Uncertainty	ReqTime	ReqDur	Stim Type	Pair Index
+
+1	Nothing	CurrentTotal:62	11	0	0			0		other	0
+2	Picture	TGinvestment	57	0	0	235469	0	0	next	other	0
+2	Text Input	31	235374	235317	0
+2	Response	1	235374	235317	0
+3	Picture	E4_application	235526	0	0	5156	0	0	next	other	0
+4	Response	2	310043	69361	0
+5	Picture	E4_application	310213	0	0	5156	0	0	next	other	0
+6	Picture	pic	315370	0	0	23459	0	0	next	other	0
+
+
+{
+   "app": "Presentation Version 20.0 Build 10.19.17",
+   "device": "Dell Inc. Latitude 7480",
+   "experiment": "{2094B016-167B-405E-8477-13F28FFEBDCE}",
+   "os": "Windows 10 64 bit",
+   "package": "",
+   "parameters": {
+      "configuration": "Default configuration"
+   },
+   "scenario": "InvestGame_CBE.sce",
+   "subject": "",
+   "timestamp": "2018/02/12 23:45:41 GMT"
+}
