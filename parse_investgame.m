@@ -1,4 +1,4 @@
-function outline = parse_investgame(fdir,fname,prefix)
+function [headline, dataline] = parse_investgame(fdir,fname,prefix)
 
 % Provided a file directory (fdir) and file name (fname)
 % Returns a CSV line with visual search results.
@@ -10,7 +10,8 @@ function outline = parse_investgame(fdir,fname,prefix)
 f = fullfile(fdir,fname);
 fid = fopen(f);
 tline = fgetl(fid);
-outline = '';
+headline = '';
+dataline = '';
 ct=-1;
 invest=-1;
 while ischar(tline)
@@ -30,7 +31,8 @@ while ischar(tline)
      tline = fgetl(fid);
 end
 
-outline=sprintf('%s_currenttotal,%d,%s_investment,%d',prefix,ct,prefix,invest);
+headline=sprintf('%s_currenttotal,%s_investment',prefix,prefix);
+dataline=sprintf('%d,%d',ct,invest);
 
 
 

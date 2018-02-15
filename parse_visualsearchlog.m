@@ -1,4 +1,4 @@
-function [outline, rsltline] = parse_visualsearchlog(fdir,fname,vsprefix)
+function [headline, dataline, rslthead, rsltline] = parse_visualsearchlog(fdir,fname,vsprefix)
 
 % Provided a file directory (fdir) and file name (fname)
 % Returns a CSV line with visual search results.
@@ -12,7 +12,9 @@ fid = fopen(f);
 seq=1;  % sequence counter
 sum_reliance = 0;
 sum_nonreliance = 0;
-outline = '';
+headline = '';
+dataline = '';
+rslthead = '';
 rsltline = '';
 tline = fgetl(fid);
 while ischar(tline)
@@ -45,11 +47,16 @@ while ischar(tline)
                     % If all is well so far, then add all the information to
                     % the output
                     prefix = sprintf('%s_ptrial%03d_seq%03d_ctrial%03d_',vsprefix,ptrial,seq,ctrial);
-                    fcs = sprintf('%sfc,%d',prefix,fc);
-                    ccs = sprintf('%scc,%d',prefix,nCC);
-                    fnls = sprintf('%sfnl,%d',prefix,nFNL);
-                    anss = sprintf('%sans,%d',prefix,nANS);
-                    resps = sprintf('%sresptime,%d',prefix,resptime);
+                    fcs = sprintf('%sfc',prefix);
+                    fcd = sprintf('%d',fc);
+                    ccs = sprintf('%scc',prefix);
+                    ccd = sprintf('%d',nCC);
+                    fnls = sprintf('%sfnl',prefix);
+                    fnld = sprintf('%d',nFNL);
+                    anss = sprintf('%sans',prefix);
+                    ansd = sprintf('%d',nANS);
+                    resps = sprintf('%sresptime',prefix);
+                    respd = sprintf('%d',resptime);
                     % Calculate reliance: 1=reliance, -1=non-reliance, 0=trash
                     reliance=0;
                     if (not(fc==nCC) && (nFNL==nCC))
@@ -61,8 +68,10 @@ while ischar(tline)
                     else
                         reliance=0;
                     end
-                    rels = sprintf('%srel,%d',prefix,reliance);
-                    outline=strjoin({outline,fcs,ccs,fnls,anss,rels,resps},',');
+                    rels = sprintf('%srel',prefix);
+                    reld = sprintf('%d',reliance);
+                    headline=strjoin({headline,fcs,ccs,fnls,anss,rels,resps},',');
+                    dataline=strjoin({dataline,fcd,ccd,fnld,ansd,reld,respd},',');
                     % Increment the counter
                     seq = seq+1;
                 end
@@ -73,16 +82,23 @@ while ischar(tline)
 end
 
 % Add totals
-rels = sprintf('%s_total_reliance,%d',vsprefix,sum_reliance);
-nrels = sprintf('%s_total_nonreliance,%d',vsprefix,sum_nonreliance);
-rfrac = sprintf('%s_reliance_fraction,%.3f',vsprefix,sum_reliance/(sum_reliance+sum_nonreliance));
+rels = sprintf('%s_total_reliance',vsprefix);
+reld = sprintf('%d',sum_reliance);
+nrels = sprintf('%s_total_nonreliance',vsprefix);
+nreld = sprintf('%d',sum_nonreliance);
+rfracs = sprintf('%s_reliance_fraction',vsprefix);
+rfracd = sprintf('%.3f',sum_reliance/(sum_reliance+sum_nonreliance));
 %outline = strjoin({outline,rels,nrels,rfrac},',');
-rsltline = strjoin({rels,nrels,rfrac},',');
-
+rsltline = strjoin({reld,nreld,rfracd},',');
+rslthead = strjoin({rels,nrels,rfracs},',');
 % get rid of first comma
-if (length(outline) > 2)
-    outline=outline(2:end);
-end
+
+headline = remove_leading_comma(headline);
+dataline = remove_leading_comma(dataline);
+rsltline = remove_leading_comma(rsltline);
+rslthead = remove_leading_comma(rslthead);
+
+return
 
 
 

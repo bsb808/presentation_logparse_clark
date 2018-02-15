@@ -1,4 +1,4 @@
-function outline = parse_extrapoints(fdir,fname)
+function [headline,dataline] = parse_extrapoints(fdir,fname)
 
 % Provided a file directory (fdir) and file name (fname)
 % Returns a CSV line with visual search results.
@@ -10,7 +10,8 @@ function outline = parse_extrapoints(fdir,fname)
 f = fullfile(fdir,fname);
 fid = fopen(f);
 tline = fgetl(fid);
-outline = '';
+headline = '';
+dataline = '';
 ct=-1;
 invest=-1;
 while ischar(tline)
@@ -23,7 +24,8 @@ while ischar(tline)
     tline = fgetl(fid);
 end
 prefix='extrapoints';
-outline=sprintf('%s_investment,%d',prefix,invest);
+headline=sprintf('%s_investment',prefix);
+dataline=sprintf('%d',invest);
 
 
 
