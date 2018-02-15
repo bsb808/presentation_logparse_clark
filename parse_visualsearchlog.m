@@ -1,4 +1,4 @@
-function outline = parse_visualsearchlog(fdir,fname,vsprefix)
+function [outline, rsltline] = parse_visualsearchlog(fdir,fname,vsprefix)
 
 % Provided a file directory (fdir) and file name (fname)
 % Returns a CSV line with visual search results.
@@ -9,11 +9,12 @@ function outline = parse_visualsearchlog(fdir,fname,vsprefix)
 
 f = fullfile(fdir,fname);
 fid = fopen(f);
-tline = fgetl(fid);
 seq=1;  % sequence counter
 sum_reliance = 0;
 sum_nonreliance = 0;
 outline = '';
+rsltline = '';
+tline = fgetl(fid);
 while ischar(tline)
     ss = strsplit(tline);
     if (length(ss)>=12)
@@ -33,28 +34,38 @@ while ischar(tline)
                         eval(sprintf('%s = str2num(uu{2});',kk{ii}));
                     end
                 end
-                % If all is well so far, then add all the information to
-                % the output
-                prefix = sprintf('%s_ptrial%03d_seq%03d_ctrial%03d_',vsprefix,ptrial,seq,ctrial);
-                fcs = sprintf('%sfc,%d',prefix,fc);
-                ccs = sprintf('%scc,%d',prefix,nCC);
-                fnls = sprintf('%sfnl,%d',prefix,nFNL);
-                anss = sprintf('%sans,%d',prefix,nANS);
-                % Calculate reliance 1=reliance, -1=non-reliance, 0=trash
-                reliance=0;
-                if (not(fc==nCC) && (nFNL==nCC))
-                    reliance=1;
-                    sum_reliance = sum_reliance  + 1;
-                elseif (not(fc==nCC) && (not(nFNL==nCC)))
-                    reliance=-1;
-                    sum_nonreliance = sum_nonreliance +1;
-                else
-                    reliance=0;
+                % Now get the response time
+                % Read 5 lines
+                for mm = 1:5
+                    tline=fgetl(fid);
                 end
-                rels = sprintf('%srel,%d',prefix,reliance);
-                outline=strjoin({outline,fcs,ccs,fnls,anss,rels},',');
-                % Increment the counter
-                seq = seq+1;
+                ss = strsplit(tline);
+                if (length(ss) > 5)
+                    resptime=str2num(ss{5});
+                    % If all is well so far, then add all the information to
+                    % the output
+                    prefix = sprintf('%s_ptrial%03d_seq%03d_ctrial%03d_',vsprefix,ptrial,seq,ctrial);
+                    fcs = sprintf('%sfc,%d',prefix,fc);
+                    ccs = sprintf('%scc,%d',prefix,nCC);
+                    fnls = sprintf('%sfnl,%d',prefix,nFNL);
+                    anss = sprintf('%sans,%d',prefix,nANS);
+                    resps = sprintf('%sresptime,%d',prefix,resptime);
+                    % Calculate reliance: 1=reliance, -1=non-reliance, 0=trash
+                    reliance=0;
+                    if (not(fc==nCC) && (nFNL==nCC))
+                        reliance=1;
+                        sum_reliance = sum_reliance  + 1;
+                    elseif (not(fc==nCC) && (not(nFNL==nCC)))
+                        reliance=-1;
+                        sum_nonreliance = sum_nonreliance +1;
+                    else
+                        reliance=0;
+                    end
+                    rels = sprintf('%srel,%d',prefix,reliance);
+                    outline=strjoin({outline,fcs,ccs,fnls,anss,rels,resps},',');
+                    % Increment the counter
+                    seq = seq+1;
+                end
             end
         end
     end
@@ -65,7 +76,8 @@ end
 rels = sprintf('%s_total_reliance,%d',vsprefix,sum_reliance);
 nrels = sprintf('%s_total_nonreliance,%d',vsprefix,sum_nonreliance);
 rfrac = sprintf('%s_reliance_fraction,%.3f',vsprefix,sum_reliance/(sum_reliance+sum_nonreliance));
-outline = strjoin({outline,rels,nrels,rfrac},',');
+%outline = strjoin({outline,rels,nrels,rfrac},',');
+rsltline = strjoin({rels,nrels,rfrac},',');
 
 % get rid of first comma
 if (length(outline) > 2)
