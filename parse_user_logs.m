@@ -116,7 +116,7 @@ for jj = 1:length(logdirs)
     fprintf('\tWriting individual data file for participant <%d> to <%s>, %d header fields and %d data fields\n',...
         id,part_outfile,count_fields(head),count_fields(data));
     fprintf(pfid,'%s\n',head);
-    fprintf(pfid,'%s\n',head);
+    fprintf(pfid,'%s\n',data);
     fclose(pfid);
 
     % Save output to combined files

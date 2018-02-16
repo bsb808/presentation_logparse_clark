@@ -31,8 +31,8 @@ while ischar(tline)
      tline = fgetl(fid);
 end
 
-headline=sprintf('%s_currenttotal,%s_investment',prefix,prefix);
-dataline=sprintf('%d,%d',ct,invest);
+headline=sprintf('%s_currenttotal,%s_investment,%s_investratio',prefix,prefix,prefix);
+dataline=sprintf('%d,%d,%.3f',ct,invest,invest/ct);
 
 
 

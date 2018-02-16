@@ -12,6 +12,7 @@ fid = fopen(f);
 seq=1;  % sequence counter
 sum_reliance = 0;
 sum_nonreliance = 0;
+sum_rel_opp=0;
 headline = '';
 dataline = '';
 rslthead = '';
@@ -59,6 +60,14 @@ while ischar(tline)
                     respd = sprintf('%d',resptime);
                     % Calculate reliance: 1=reliance, -1=non-reliance, 0=trash
                     reliance=0;
+                    rel_opp = 0;
+                    if (fc==nCC)
+                        rel_opp = 0;
+                    else
+                        rel_opp = 1;
+                        sum_rel_opp = sum_rel_opp+1;
+                    end
+                    
                     if (not(fc==nCC) && (nFNL==nCC))
                         reliance=1;
                         sum_reliance = sum_reliance  + 1;
@@ -70,6 +79,8 @@ while ischar(tline)
                     end
                     rels = sprintf('%srel',prefix);
                     reld = sprintf('%d',reliance);
+                    relos = sprintf('%srelopportunity',prefix);
+                    relod = sprintf('%d',rel_opp);
                     headline=strjoin({headline,fcs,ccs,fnls,anss,rels,resps},',');
                     dataline=strjoin({dataline,fcd,ccd,fnld,ansd,reld,respd},',');
                     % Increment the counter
@@ -88,9 +99,13 @@ nrels = sprintf('%s_total_nonreliance',vsprefix);
 nreld = sprintf('%d',sum_nonreliance);
 rfracs = sprintf('%s_reliance_fraction',vsprefix);
 rfracd = sprintf('%.3f',sum_reliance/(sum_reliance+sum_nonreliance));
+opps = sprintf('%s_total_reliance_opportunities',vsprefix);
+oppd = sprintf('%d',sum_rel_opp);
+oppfracs = sprintf('%s_reliance_opportunity_fraction',vsprefix);
+oppfracd = sprintf('%.3f',sum_rel_opp/seq);
 %outline = strjoin({outline,rels,nrels,rfrac},',');
-rsltline = strjoin({reld,nreld,rfracd},',');
-rslthead = strjoin({rels,nrels,rfracs},',');
+rsltline = strjoin({reld,nreld,rfracd,oppd,oppfracd},',');
+rslthead = strjoin({rels,nrels,rfracs,opps,oppfracs},',');
 % get rid of first comma
 
 headline = remove_leading_comma(headline);
