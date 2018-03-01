@@ -24,8 +24,8 @@ while ischar(tline)
     tline = fgetl(fid);
 end
 prefix='extrapoints';
-headline=sprintf('%s_investment',prefix);
-dataline=sprintf('%d',invest);
+headline=sprintf('%s_investment,%s_invest_ratio',prefix,prefix);
+dataline=sprintf('%d,%.3f',invest,invest/20.0);
 
 
 
