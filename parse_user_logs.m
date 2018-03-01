@@ -85,6 +85,12 @@ for jj = 1:length(logdirs)
             fprintf('\tParsed extra points with %d header columns and %d data columns\n', ...
                      length(strsplit(head_ep,',')),length(strsplit(data_ep,',')));
                  cnt=cnt+1;
+                 
+        elseif (strfind(ff(ii).name,'SelfEfficacy'))
+            [head_se,data_se] = parse_selfefficacy(user_dir,ff(ii).name);
+            fprintf('\tParsed self efficacy with %d header columns and %d data columns\n', ...
+                     length(strsplit(head_se,',')),length(strsplit(data_se,',')));
+                 cnt=cnt+1;
         elseif (strfind(ff(ii).name,'MoodQuestionnaire_1'))
             [head_mood1,data_mood1] = parse_mood(user_dir,ff(ii).name,'mood1');
             fprintf('\tParsed mood 1 with %d header columns and %d data columns\n', ...
@@ -102,9 +108,9 @@ for jj = 1:length(logdirs)
 
     % Put all outputs on one line CSV
     head=strjoin({'participantid','type',head_vs1,rslt_head_vs1,...
-        head_vs2,rslt_head_vs2,head_ig1,head_ig2,head_ep,head_mood1,head_mood2},',');
+        head_vs2,rslt_head_vs2,head_ig1,head_ig2,head_ep,head_mood1,head_mood2,head_se},',');
     data=strjoin({sprintf('%d',id),typestr,data_vs1,rslt_data_vs1,...
-        data_vs2,rslt_data_vs2,data_ig1,data_ig2,data_ep,data_mood1,data_mood2},',');
+        data_vs2,rslt_data_vs2,data_ig1,data_ig2,data_ep,data_mood1,data_mood2,data_se},',');
     % Abbreviated
     head_abv = strjoin({'participantid','type',rslt_head_vs1,...
         rslt_head_vs2,head_ig1,head_ig2,head_ep},',');
