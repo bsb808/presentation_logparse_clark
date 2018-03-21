@@ -101,6 +101,13 @@ for jj = 1:length(logdirs)
             fprintf('\tParsed mood 1 with %d header columns and %d data columns\n', ...
                      length(strsplit(head_mood2,',')),length(strsplit(data_mood2,',')));
             cnt=cnt+1;
+        elseif (strfind(ff(ii).name,'Demographics'))
+            [head_demo,data_demo] = parse_demographics(user_dir,ff(ii).name);
+            fprintf('\tParsed demographics with %d header columns and %d data columns\n', ...
+                     length(strsplit(head_demo,',')),length(strsplit(data_demo,',')));
+            cnt=cnt+1;
+            
+            
 
         end
     end
@@ -108,9 +115,9 @@ for jj = 1:length(logdirs)
 
     % Put all outputs on one line CSV
     head=strjoin({'participantid','type',head_vs1,rslt_head_vs1,...
-        head_vs2,rslt_head_vs2,head_ig1,head_ig2,head_ep,head_mood1,head_mood2,head_se},',');
+        head_vs2,rslt_head_vs2,head_ig1,head_ig2,head_ep,head_mood1,head_mood2,head_se,head_demo},',');
     data=strjoin({sprintf('%d',id),typestr,data_vs1,rslt_data_vs1,...
-        data_vs2,rslt_data_vs2,data_ig1,data_ig2,data_ep,data_mood1,data_mood2,data_se},',');
+        data_vs2,rslt_data_vs2,data_ig1,data_ig2,data_ep,data_mood1,data_mood2,data_se,data_demo},',');
     % Abbreviated
     head_abv = strjoin({'participantid','type',rslt_head_vs1,...
         rslt_head_vs2,head_ig1,head_ig2,head_ep},',');
