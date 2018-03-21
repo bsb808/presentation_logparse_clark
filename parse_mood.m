@@ -33,34 +33,34 @@ end
 
 % Scoring STAI
 % array to indicate which questions are negatively scored
-neg_ii = [1,2,5,8,10,11,15,16,19,20];
-n = length(answers);
-score=0;
-if (n~=20)
-    fprintf('WARNING - number of answers to STAI is not 20 - it is %d\n', n);
-    fprintf('Setting score to 0\n');
-    score=0;
-else
-    score = 0;
-    for ii = 1:n
-        % Check answer - just in case
-        if  (answers(ii) < 1) || (answers(ii) > 4)
-            fprintf('WARNING - mood answer to question %d is not between 1 and 4, it is %d\n', ...
-                ii,answers(ii));
-        end
-        % Do ths scoring
-        if ismember(ii,neg_ii)
-            score = score + (5-answers(ii));
-        else
-            score = score+answers(ii);
-        end
-    end
-end
+% neg_ii = [1,2,5,8,10,11,15,16,19,20];
+% n = length(answers);
+% score=0;
+% if (n~=20)
+%     fprintf('WARNING - number of answers to STAI is not 20 - it is %d\n', n);
+%     fprintf('Setting score to 0\n');
+%     score=0;
+% else
+%     score = 0;
+%     for ii = 1:n
+%         % Check answer - just in case
+%         if  (answers(ii) < 1) || (answers(ii) > 4)
+%             fprintf('WARNING - mood answer to question %d is not between 1 and 4, it is %d\n', ...
+%                 ii,answers(ii));
+%         end
+%         % Do ths scoring
+%         if ismember(ii,neg_ii)
+%             score = score + (5-answers(ii));
+%         else
+%             score = score+answers(ii);
+%         end
+%     end
+% end
 
 % Add score to results
-headline=strjoin({headline,sprintf('%s_stai_score',mprefix),','});
-dataline=strjoin({dataline,sprintf('%d',score),','});
-        
+% headline=strjoin({headline,sprintf('%s_stai_score',mprefix),','});
+% dataline=strjoin({dataline,sprintf('%d',score),','});
+%         
 % Remove leading comma
 headline = remove_leading_comma(headline);
 dataline = remove_leading_comma(dataline);

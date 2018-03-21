@@ -4,8 +4,9 @@ function [headline, dataline, rslthead, rsltline] = parse_visualsearchlog(fdir,f
 % Returns a CSV line with visual search results.
 
 % For debugging
-%fdir = './logs/UserA_CBE';
-%fname = 'VisualSearchTask_1-20180212-153645-WDCRA.log';
+% fdir = './logs/UserA_CBE';
+% fname = 'VisualSearchTask_1-20180212-153645-WDCRA.log';
+% vsprefix = 'test';
 
 f = fullfile(fdir,fname);
 fid = fopen(f);
@@ -39,12 +40,23 @@ while ischar(tline)
                 end
                 % Now get the response time
                 % Read 5 lines
-                for mm = 1:5
+                MM = 6;
+                mm = 1;
+                while (mm<=MM)
                     tline=fgetl(fid);
+                    ss = strsplit(tline);
+                    if length(ss) >  8
+                        if (strcmp(ss{2},'Picture') && strcmp(ss{3},'Final'))
+                            resptime=str2num(ss{8});
+                            break;
+                        end
+                    end
+                    mm=mm+1;
                 end
-                ss = strsplit(tline);
-                if (length(ss) > 5)
-                    resptime=str2num(ss{5});
+                if mm>=MM
+                    disp('Warning - did not find Picture Final Choice');
+                    resptime=-1;
+                else
                     % If all is well so far, then add all the information to
                     % the output
                     prefix = sprintf('%s_ptrial%03d_seq%03d_ctrial%03d_',vsprefix,ptrial,seq,ctrial);
