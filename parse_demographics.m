@@ -1,11 +1,11 @@
-%function [headline,dataline] = parse_demographics(fdir,fname)
+function [headline,dataline] = parse_demographics(fdir,fname)
 
 % Provided a file directory (fdir) and file name (fname)
 % Returns a CSV line with visual search results.
 
 % For debugging
- fdir = './logs/UserA_CBE';
- fname = 'Demographics-20180212-155756-EJSHO.log';
+%  fdir = './logs/UserA_CBE';
+%  fname = 'Demographics-20180212-155756-EJSHO.log';
 
 f = fullfile(fdir,fname);
 fid = fopen(f);
